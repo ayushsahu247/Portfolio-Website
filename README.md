@@ -5,4 +5,4 @@
 * HTML5
 * CSS
 
-Link to the [website](https://piyushahir28.netlify.app/)
+Link to the [website](https://serene-murdock-b7d366.netlify.app/)
