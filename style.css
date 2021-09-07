@@ -89,11 +89,11 @@ body {
     font-weight: 400;
 }
 
-a:hover{
-    color: aquamarine;
-    font-size: 20px;
-    background-color: var(--off-white);
+.nav-bar li a:hover{
+    transform: scale(0.97);
 }
+
+/* --------------- */
 
 a .sectionlinks p{
     text-decoration: none;
@@ -101,7 +101,7 @@ a .sectionlinks p{
 
 a:hover .sectionlinks p{
     text-decoration: none;
-    font-size: large;
+    /* font-size: large; */
 }
 
 
@@ -110,7 +110,7 @@ a{
 }
 a:hover{
     color: rgb(20, 78, 59);
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 a:visited p{
@@ -227,6 +227,11 @@ a:visited h1{
    
 }
 
+.project-container:hover{
+    border: 1px solid black;
+    transform: scale(1.02);
+}
+
 .project-section {
     margin: 2rem 0rem;
 }
@@ -234,8 +239,6 @@ a:visited h1{
 
 .project-section:hover {
     margin: 2rem 0rem;
-    transform: scale(0.96);
-    background-color: beige;
 }
 
 .project-section h3 {
